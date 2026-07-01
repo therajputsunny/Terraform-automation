@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "my-company-terraform-state"   # CHANGE ME: your S3 bucket name
+    bucket         = "terraform-first-backend-bucket"   # CHANGE ME: your S3 bucket name
     key            = "ec2/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-locks"
