@@ -1,4 +1,4 @@
-# Get the latest Ubuntu 22.04 LTS (Jammy) AMI, owned by Canonical . thi is my first workflow 
+# Get the latest Ubuntu 22.04 LTS (Jammy) AMI, owned by Canonical . thi is my first workflow sunn
 data "aws_ami" "ubuntu" {
   most_recent = true
   owners      = ["099720109477"] # Canonical's official AWS account ID
